@@ -9,7 +9,7 @@ class Restaurant:
         self.new_rest.append(self)
 
     def name(self):
-        if type(self.name) ==str:
+        # if type(self.name) ==str:
             return self._name
         
        

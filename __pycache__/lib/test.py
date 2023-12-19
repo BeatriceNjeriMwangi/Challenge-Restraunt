@@ -17,4 +17,3 @@ for customer in Customer.all():
 
 for restaurant in Restaurant.all():
     print ({restaurant.name()})
-    
