@@ -29,7 +29,7 @@ class Customer:
         return new_review
         pass
     def num_reviews(self):
-        return len([review for review in Review.all if review.customer ()==self]) 
+        return len([review for review in Review.all() if review.customer()==self]) 
 
     @classmethod 
     def find_by_name(cls, name):
