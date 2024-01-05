@@ -6,9 +6,13 @@ class Restaurant:
         self._name = name
         self.reviews_list = []
         self.new_rest.append(self)
-
+    @property
     def name(self):
         return self._name
+    
+    @name.setter
+    def name(self, name):
+        self._name = name
 
     def add_review(self, review):
         self.reviews_list.append(review)

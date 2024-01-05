@@ -8,14 +8,24 @@ class Customer:
         self.f_name = f_name
         self.all_list.append(self)
 
+    @property
     def given_name(self):
-        return self.name
+        return self._name
+
+    @given_name.setter
+    def given_name(self, name):
+        self._name= name
 
     def family_name(self):
         return self.f_name
+    
+    @family_name.setter
+    def family_name(self, f_name):
+        self._f_name= f_name
 
+    @property
     def full_name(self):
-        return f"{self.name} {self.f_name}"
+        return f"{self._name} {self._f_name}"
 
     @classmethod
     def all(cls):
