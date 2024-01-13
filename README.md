@@ -38,7 +38,7 @@ review.py:to represent reviews
 
 ## Support and Contact Details
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at
-stanley.muiruri@student.moringaschool.com
+beatrice.mwangi@student.moringaschool.com
 
 ## License 
 MIT License
